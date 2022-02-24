@@ -15,6 +15,7 @@ public class Tree {
         else {
             TreeNode tempNode = root;
             boolean stop = false;
+
             while(!stop){
                 if(value < tempNode.getData()){
                     if(tempNode.getLeftChild() == null){
